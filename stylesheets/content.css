@@ -1,0 +1,2498 @@
+@font-face {
+    font-family: "Golos UI";
+    src: url(../fonts/Golos-UI_Bold.ttf) format('ttf');
+    src: url(../fonts/Golos-UI_Medium.ttf) format('ttf');
+    src: url(../fonts/Golos-UI_Regular.ttf) format('ttf');
+    src: url(../fonts/Golos-UI_VF.ttf) format('ttf');
+    font-weight: normal;
+}
+
+/* Главная страница */
+
+/* .razdeli1, .razdeli2, .razdeli3, .razdeli4, .razdeli5 :hover {
+color: #0000f4;
+} */
+
+.netu {
+  opacity: 0;
+}
+
+/* .preload {
+  position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 8;
+    transition: opacity 0.5s ease;
+    transition-delay: 0.2s;
+} */
+
+.container {
+    position: relative;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 100%;
+    height: 62vw;
+  }
+
+  .header {
+    position: absolute;
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+    height: 4.3vw;
+  }
+
+
+  h1 {
+    font-family: "Golos UI Regular";
+    color: white;
+    font-size: 3vw;
+    position: absolute;
+    margin-top: 0.5vw;
+    margin-left: 1vw;
+  }
+
+
+
+  h3 {
+    font-family: "Golos UI Regular";
+    color: rgb(0, 0, 0);
+    font-size: 0.7vw;
+    font-weight: bold;
+  }
+  
+
+  #fon {
+    position: absolute;
+    width: 15vw;
+  }
+
+  .fon1 {
+    position: absolute;
+    width: 100vw;
+    margin-top: 5vw;
+  }
+
+  .fon2 {
+    position: absolute;
+    width: 30vw;
+    margin-top: 20vw ;
+    margin-left:  3vw;
+    rotate: 90deg;
+  }
+
+  .fon3 {
+    position: absolute;
+    width: 20vw;
+    margin-top: 30vw;
+    margin-left: 55vw;
+  }
+
+  .fon4{
+    position: absolute;
+    width: 20vw;
+    margin-top: 42vw;
+    margin-left: 80vw;
+  }
+
+  .fon5{
+    position: absolute;
+    width: 20vw;
+    margin-top: 27vw;
+    margin-left: 30vw;
+  }
+
+  .fon6{
+    position: absolute;
+    width: 20vw;
+    margin-top: 40vw;
+    margin-left: 7vw;
+  }
+
+  .fon7 {
+    position: absolute;
+    width: 20vw;
+    margin-top: 5vw;
+    margin-left: 75vw;
+  }
+
+  .fon2x {
+    position: absolute;
+    width: 30vw;
+    margin-top: 6vw;
+    margin-left: 33vw;
+  }
+
+  .fon8 {
+    position: absolute;
+    margin-top: 15vw;
+    margin-left: 20vw;
+  }
+
+  .fon9 {
+    position: absolute;
+    margin-top: 9vw;
+    margin-left: 62vw;
+  }
+
+  .fon10 {
+    position: absolute;
+    margin-top: 30vw;
+    margin-left: 78vw;
+  }
+
+  .fon11 {
+    position: absolute;
+    margin-top: 45vw;
+    margin-left: 55vw;
+  }
+
+  .fon12 {
+    position: absolute;
+    margin-top: 47vw;
+    margin-left: 25vw;
+  }
+
+.change1 {
+    position: absolute;
+    width: 100%;
+}
+.change2{
+    position: absolute;
+    width: 100%;
+}
+
+.change2x{
+    position: absolute;
+    width: 100%;
+}
+
+.change3{
+    position: absolute;
+    width: 100%;
+}
+
+.change4{
+    position: absolute;
+    width: 100%;
+}
+
+.change5{
+    position: absolute;
+    width: 100%;
+}
+
+.change6{
+    position: absolute;
+    width: 100%;
+}
+
+.change7{
+    position: absolute;
+    width: 100%;
+}
+
+.change8{
+    position: absolute;
+    width: 100%;
+}
+
+.change9{
+    position: absolute;
+    width: 100%;
+}
+
+.change10{
+    position: absolute;
+    width: 100%;
+}
+
+.change11{
+    position: absolute;
+    width: 100%;
+}
+
+.change12{
+    position: absolute;
+    width: 100%;
+}
+
+.pix1, .pix2, .pix2x, .pix3, .pix4, .pix5, .pix6, .pix7, .pix8, .pix9, .pix10, .pix11, .pix12 {
+    position: absolute;
+    width: 100%;
+}
+
+.pix2{ 
+    width: 98%;
+}
+
+
+
+  .s1 {
+    position: absolute;
+    width: 35vw;
+    margin-top: 7vw;
+    margin-left: 3vw;
+  }
+
+  .s2 {
+    position: absolute;
+    width: 25vw;
+    margin-left: 42vw;
+    margin-top: 7vw;
+  }
+
+  .s3 {
+    position: absolute;
+    width: 35vw;
+    margin-left: 62vw;
+    margin-top: 5vw;
+  }
+
+  .s4 {
+    position: absolute;
+    width: 30vw;
+    margin-top: 31vw;
+    margin-left: 1vw;
+  }
+
+  .s5 {
+    position: absolute;
+    width: 35vw;
+    margin-top: 31vw;
+    margin-left: 32vw;
+
+  }
+
+  .s6 {
+    position: absolute;
+    width: 30vw;
+    margin-top: 34vw;
+    margin-left: 70vw;
+  }
+
+  .s1, .s2, .s3, .s4, .s5, .s6 {
+    animation: dvig1 0.5s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes dvig1 {
+    0% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1.);
+    }
+  }
+
+
+
+.author1, .author2, .author3, .author4, .author5, .author6 {
+    margin-top: 58vw;
+}
+
+.qqq {
+    display: none;
+}
+
+
+.appear1 {
+    display: block;
+    animation: pixels1 0.5s infinite;
+    animation-delay: 1s;
+    /* animation-timing-function: ease-in-out; */
+}
+
+.appear2 {
+    display: block;
+    animation: pixels1 0.5s infinite;
+    animation-delay: 2s;
+    /* animation-timing-function: ease-in-out; */
+}
+
+.appear3 {
+    display: block;
+    animation: pixels1 0.5s infinite;
+    animation-delay: 3s;
+    /* animation-timing-function: ease-in-out; */
+}
+
+@keyframes appear1 {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+    1% {
+        display: block;
+        opacity: 0;
+    }
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+h1:hover {
+    animation: fade 0.5s infinite;
+}
+
+@keyframes fade {
+    0% {color: white;
+    }
+
+    1%{color: black;}
+
+    100% {
+        color: black;
+    }
+    }
+
+
+    /* О НАС */
+
+
+    .mainscreen2 {
+      height: 40vw;
+      overflow: hidden;
+    }
+    
+    .fon13 {
+      position: absolute;
+      width: 100vw;
+      margin-top: 4.3vw;
+    }
+  
+    .fon14 {
+      position: absolute;
+      width: 30vw;
+      margin-top: 20vw ;
+      margin-left:  3vw;
+      rotate: 90deg;
+    }
+  
+    .fon15 {
+      position: absolute;
+      width: 20vw;
+      margin-top: 30vw;
+      margin-left: 55vw;
+    }
+  
+    .fon16{
+      position: absolute;
+      width: 20vw;
+      margin-top: 42vw;
+      margin-left: 80vw;
+    }
+  
+    .fon17{
+      position: absolute;
+      width: 20vw;
+      margin-top: 27vw;
+      margin-left: 30vw;
+    }
+  
+    .fon18{
+      position: absolute;
+      width: 20vw;
+      margin-top: 40vw;
+      margin-left: 7vw;
+    }
+  
+    .fon19 {
+      position: absolute;
+      width: 20vw;
+      margin-top: 5vw;
+      margin-left: 75vw;
+    }
+  
+    .fon20 {
+      position: absolute;
+      width: 30vw;
+      margin-top: 6vw;
+      margin-left: 33vw;
+    }
+  
+    .fon21 {
+      position: absolute;
+      margin-top: 15vw;
+      margin-left: 20vw;
+    }
+  
+    .fon22 {
+      position: absolute;
+      margin-top: 9vw;
+      margin-left: 62vw;
+    }
+  
+    .fon23 {
+      position: absolute;
+      margin-top: 30vw;
+      margin-left: 78vw;
+    }
+  
+    .fon24 {
+      position: absolute;
+      margin-top: 45vw;
+      margin-left: 55vw;
+    }
+  
+    .fon25 {
+      position: absolute;
+      margin-top: 47vw;
+      margin-left: 25vw;
+    }
+
+    .fon26 {
+      position: absolute;
+      width: 100vw;
+      margin-top: 60vw;
+    }
+
+    .fon27 {
+      position: absolute;
+      width: 100vw;
+      margin-top: 116vw;
+    }
+
+    .fon28 {
+      position: absolute;
+      width: 20vw;
+      margin-top: 30vw;
+      margin-left: 10vw;
+    }
+
+    .fon29 {
+      position: absolute;
+      width: 20vw;
+      margin-top: 40vw;
+      margin-left: 40vw;
+    }
+
+    .fon30 {
+      position: absolute;
+      width: 20vw;
+      margin-top: 15vw;
+      margin-left: 20vw;
+    }
+
+
+    .fon31 {
+      position: absolute;
+      width: 20vw;
+      margin-top: 10vw;
+      margin-left: 50vw;
+    }
+
+    .fon32 {
+      position: absolute;
+      width: 100vw;
+      margin-top: 1004.3vw;
+    }
+  
+    .fon33 {
+      position: absolute;
+      width: 30vw;
+      margin-top: 120vw ;
+      margin-left:  3vw;
+      rotate: 90deg;
+    }
+  
+    .fon34 {
+      position: absolute;
+      width: 20vw;
+      margin-top: 130vw;
+      margin-left: 55vw;
+    }
+  
+    .fon35{
+      position: absolute;
+      width: 20vw;
+      margin-top: 142vw;
+      margin-left: 80vw;
+    }
+  
+    .fon36{
+      position: absolute;
+      width: 20vw;
+      margin-top: 127vw;
+      margin-left: 30vw;
+    }
+  
+    .fon37{
+      position: absolute;
+      width: 20vw;
+      margin-top: 140vw;
+      margin-left: 7vw;
+    }
+  
+    .fon38 {
+      position: absolute;
+      width: 20vw;
+      margin-top: 105vw;
+      margin-left: 75vw;
+    }
+  
+    .fon39 {
+      position: absolute;
+      width: 30vw;
+      margin-top: 106vw;
+      margin-left: 33vw;
+    }
+  
+    .fon40 {
+      position: absolute;
+      margin-top: 115vw;
+      margin-left: 20vw;
+    }
+  
+    .fon41 {
+      position: absolute;
+      margin-top: 109vw;
+      margin-left: 62vw;
+    }
+  
+    .fon42 {
+      position: absolute;
+      margin-top: 130vw;
+      margin-left: 78vw;
+    }
+  
+    .fon43 {
+      position: absolute;
+      margin-top: 145vw;
+      margin-left: 55vw;
+    }
+  
+    .fon44 {
+      position: absolute;
+      margin-top: 147vw;
+      margin-left: 25vw;
+    }
+
+    .fon45 {
+      position: absolute;
+      width: 20vw;
+      margin-top: 160vw;
+    }
+
+    .fon46 {
+      position: absolute;
+      width: 100vw;
+      margin-top: 216vw;
+    }
+
+    .fon47 {
+      position: absolute;
+      width: 20vw;
+      margin-top: 30vw;
+      margin-left: 110vw;
+    }
+
+    .fon48 {
+      position: absolute;
+      width: 30vw;
+      margin-top: 65vw;
+    }
+  
+    .fon49 {
+      position: absolute;
+      width: 30vw;
+      margin-top: 80vw ;
+      margin-left:  40vw;
+      rotate: 90deg;
+    }
+  
+    .fon50 {
+      position: absolute;
+      width: 20vw;
+      margin-top: 80vw;
+      margin-left: 55vw;
+    }
+  
+    .fon51{
+      position: absolute;
+      width: 20vw;
+      margin-top: 70vw;
+      margin-left: 80vw;
+    }
+  
+    .fon52{
+      position: absolute;
+      width: 20vw;
+      margin-top: 60vw;
+      margin-left: 35vw;
+    }
+  
+    .fon53{
+      position: absolute;
+      width: 20vw;
+      margin-top: 90vw;
+      margin-left: 7vw;
+    }
+  
+    .fon54 {
+      position: absolute;
+      width: 20vw;
+      margin-top: 40vw;
+      margin-left: 75vw;
+    }
+  
+    .fon55 {
+      position: absolute;
+      width: 30vw;
+      margin-top: 75vw;
+      margin-left: 33vw;
+    }
+  
+    .fon56 {
+      position: absolute;
+      width: 20vw;
+      margin-top: 115vw;
+      margin-left: 1vw;
+    }
+  
+    .fon57 {
+      position: absolute;
+      width: 20vw;
+      margin-top: 59vw;
+      margin-left: 62vw;
+    }
+  
+    .fon58 {
+      position: absolute;
+      width: 20vw;
+      margin-top: 120vw;
+      margin-left: 70vw;
+    }
+  
+    .fon59 {
+      position: absolute;
+      width: 20vw;
+      margin-top: 150vw;
+      margin-left: 27vw;
+    }
+  
+    .fon60 {
+      position: absolute;
+      margin-top: 130vw;
+      margin-left: 25vw;
+    }
+
+    .fon61 {
+      position: absolute;
+      width: 20vw;
+      margin-top: 80vw;
+    }
+
+    .fon62 {
+      position: absolute;
+      width: 20vw;
+      margin-left: 37vw;
+      margin-top: 100vw;
+    }
+
+    .fon63 {
+      position: absolute;
+      width: 20vw;
+      margin-top: 150vw;
+      margin-left: 50vw;
+    }
+
+
+    .container2 {
+      position: relative;
+      overflow: hidden;
+      background: rgb(#0000f4);
+      width: 100%;
+      height: 200vw;
+    }
+
+    .change13, .change14, .change15, .change16, .change17, .change18, .change19, .change20, .change21, .change22, .change23, .change24, .change25, .change26, .change27, .change28, .change29, .change30, .change31, .change32, .change33, .change34, .change35, .change36, .change37, .change38, .change39, .change40, .change41, .change42, .change43, .change44, .change45, .change46, .change47, .change48, .change49, .change50, .change51, .change52, .change53, .change54,.change55, .change56, .change57, .change58, .change59, .change60, .change61, .change62, .change63  {
+      position: absolute;
+      width: 100%;
+    }
+
+    .change13, .change14, .change15, .change16, .change17, .change18, .change19, .change20, .change21, .change22, .change23,
+    .change24, .change25, .change26, .change27, .change28, .change29, .change30, .change31, .change32, .change33, .change34,
+    .change35, .change36, .change37, .change38, .change39, .change40, .change41, .change42, .change43, .change44, .change45,
+    .change46, .change47, .change48, .change49, .change50, .change51, .change52, .change53, .change54,.change55, .change56,
+    .change57, .change58, .change59, .change60, .change61, .change62, .change63:hover{
+      animation: ischez 0.5s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes ischez {
+    0% {
+      transform: opacity(1) ;
+    }
+    100% {
+      transform: opacity(0);
+    }
+  }
+  
+
+    .pix13, .pix14, .pix15, .pix16, .pix17, .pix18, .pix19, .pix20, .pix21, .pix22, .pix23, .pix24, .pix25, .pix26, .pix27, .pix28, .pix29, .pix30, .pix31, .pix32, .pix33, .pix34, .pix35, .pix36, .pix37, .pix38, .pix39, .pix40 , .pix41, .pix42, .pix43, .pix44, .pix45, .pix46, .pix47, .pix48, .pix49, .pix50, .pix51, .pix52, .pix53, .pix54, .pix55, .pix56,.pix57,.pix58, .pix59, .pix60, .pix61,.pix62, .pix63 {
+      position: absolute;
+      width: 100%;
+  }
+
+  .pix49{ 
+    width: 29vw;
+  }
+
+.texti{
+  position: absolute;
+width: 40vw;
+/* margin-top: -95vw; */
+margin-left: 1vw;
+margin-top: 5vw;
+}
+
+.opis, .context, .space, .refs, .plan{
+  margin-top: 1vw;
+}
+
+.scheme {
+  position: absolute;
+width: 40vw;
+/* margin-top: -68vw; */
+margin-top: 32vw;
+margin-left: 1vw;
+}
+
+.setka{
+  position: absolute;
+width: 100%;
+}
+
+.krest {
+  position: absolute;
+  width: 2.9vw;
+  margin-top: 0.1vw;
+  margin-left: 0.2vw;
+}
+
+.picto {
+  position: absolute;
+  margin-left: 1vw;
+  /* margin-top: -49vw; */
+  margin-top: 51vw;
+}
+
+.icons {
+  position: absolute;
+width: 40vw;
+/* margin-top: -48vw; */
+margin-top: 52vw;
+margin-left: 1vw;
+}
+
+.icn {
+  position: absolute;
+  width: 100%;
+}
+
+.icons2 {
+  position: absolute;
+width: 40vw;
+margin-top: 52vw;
+/* margin-top: -48vw; */
+margin-left: 1vw;
+}
+
+.icn2 {
+  position: absolute;
+  width: 100%;
+}
+
+  .photos {
+    position: absolute;
+    width: 40vw;
+    /* margin-top: -95vw; */
+    margin-left: 42vw;
+  }
+
+  .angar{
+    position: absolute;
+    width: 20vw;
+    margin-top: 7vw;
+  margin-left: 30vw;
+  }
+
+.drum{
+  position: absolute;
+    width: 20vw;
+    margin-top: 5vw;
+  margin-left: vw;
+}
+
+.mar{
+  position: absolute;
+  width: 20vw;
+  margin-top: 10vw;
+  margin-left: 5vw;
+}
+
+.nak{
+  position: absolute;
+  width: 20vw;
+  margin-top: 20vw;
+  margin-left: 35vw;
+}
+
+.ser1{
+  position: absolute;
+  width: 20vw;
+  margin-top: 25vw;
+  margin-left: 1vw;
+}
+
+.ser2{
+  position: absolute;
+  width: 20vw;
+  margin-top: 30vw;
+  margin-left: 20vw;
+}
+
+.ser3{
+  position: absolute;
+  width: 20vw;
+  margin-top: 42vw;
+  margin-left: 35vw;
+}
+
+.shell{
+  position: absolute;
+  width: 20vw;
+  margin-top: 10vw;
+  margin-left: 15vw;
+}
+
+.zdes{
+  position: absolute;
+  width: 20vw;
+  margin-top: 42vw;
+  margin-left: 3vw;
+}
+
+
+/* Афиша */
+
+.post1 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 20vw;
+  margin-left: 20vw;
+}
+
+.post2 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 30vw;
+  margin-left: 70vw;
+}
+
+.post3 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 25vw;
+  margin-left: 50vw;
+}
+
+.post4 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 10vw;
+  margin-left: 5vw;
+}
+
+.post5 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 5vw;
+  margin-left: 1vw;
+}
+
+.post6 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 5vw;
+  margin-left: 75vw;
+}
+
+.post7 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 30vw;
+  margin-left: 30vw;
+}
+
+.post8 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 10vw;
+  margin-left: 40vw;
+}
+
+.post9 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 27vw;
+  margin-left:77vw;
+}
+
+.post10 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 5vw;
+  margin-left: 28vw;
+}
+
+.post11 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 8vw;
+  margin-left: 55vw;
+}
+
+.post12 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 30vw;
+  margin-left: 2vw;
+}
+
+.post13 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 28vw;
+  margin-left: 20vw;
+}
+
+.post14 {
+  position: absolute;
+  width: 10vw;
+  margin-top: 10vw;
+  margin-left: 10vw;
+}
+.post15 {
+  position: absolute;
+  width: 10vw;
+  margin-top: 7vw;
+  margin-left: 23vw;
+}
+
+.post16 {
+  position: absolute;
+  width: 10vw;
+  margin-top: 45vw;
+  margin-left: 30vw;
+}
+
+.post17 {
+  position: absolute;
+  width: 10vw;
+  margin-top: 40vw;
+  margin-left: 45vw;
+}
+
+.post18 {
+  position: absolute;
+  width: 10vw;
+  margin-top: 30vw;
+  margin-left: 13vw;
+}
+
+.post19 {
+  position: absolute;
+  width: 10vw;
+  margin-top: 15vw;
+  margin-left:60vw ;
+}
+
+.post20 {
+  position: absolute;
+  width: 10vw;
+  margin-top: 10vw;
+  margin-left: 40vw;
+}
+
+.post21 {
+  position: absolute;
+  width: 10vw;
+  margin-top: 20vw;
+  margin-left:80vw;
+}
+
+.post22 {
+  position: absolute;
+  width: 10vw;
+  margin-top: 45vw;
+  margin-left: 55vw;
+}
+
+.post23 {
+  position: absolute;
+  width: 10vw;
+  margin-top: 20vw;
+  margin-left: 20vw;
+}
+
+
+
+/* ПЛАКАТ */
+
+p {font-family: "Golos UI Regular";
+  color: rgb(255, 255, 255);}
+h4 {font-family: "Golos UI Regular";
+  font-size: 6vw;
+  }
+
+h6 {font-family: "Golos UI Regular";}
+
+h5 {font-family: "Golos UI Regular";}
+
+.poster {
+  position: relative;
+  overflow: hidden;
+  background: black;
+  height: 231.4vw;
+  margin-top: -58vw;
+}
+
+.one{
+  position: relative;
+  width: 100%;
+  background-color: white;
+}
+
+.blabla {
+  position: absolute;
+  background-color: white;
+  width: 100vw;
+  height: 55.52vw;
+}
+
+.obl{
+  width: 100vw;
+  transform: translateY(3.5vw);
+  height: 50vw;
+  animation: dvig1 0.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes dvig1 {
+  0% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(0.8.0.8);
+  }
+}
+
+.silent{
+  position: absolute;
+  top: 4vw;
+  left: 8vw
+}
+
+.disco {
+  position: absolute;
+  top: 10vw;
+  left: 15vw;
+}
+
+.reloud{
+  position: absolute;
+  top: 44vw;
+  left: 65vw;
+}
+
+.silent, .disco, .reloud {
+  font-size: 6vw;
+  animation: color100 0.5s infinite;
+  animation-direction: alternate;
+ animation-timing-function: ease-in-out;
+}
+
+@keyframes color100 {
+  0% {color: #000000;}
+  100% {color: #0000f4;}
+}
+
+.n1 {
+  position: absolute;
+  top: 23vw;
+  left: 58vw;
+}
+
+.n2 {
+  position: absolute;
+  left: 30vw;
+  top: 45vw;
+}
+
+.n3 {
+  position: absolute;
+  left: 80vw;
+  top: 29vw;
+}
+
+.n4 {
+  position: absolute;
+  left: 5.5vw;
+  top: 13vw;
+}
+
+.n5 {
+  position: absolute;
+  left: 8vw;
+  top: 38vw;
+}
+
+.n6 {
+  position: absolute;
+  left: 88.5vw;
+  top: 5vw;
+}
+
+.n7 {
+  position: absolute;
+  left: 17vw;
+  top: 21vw;
+}
+
+.n8 {
+  position: absolute;
+  left: 75vw;
+  top: 14vw;
+}
+
+.n9 {
+  position: absolute;
+  left: 40vw;
+  top: 20vw;
+}
+
+
+.n10 {
+  position: absolute;
+  left: 49vw;
+  top: 40vw;
+}
+
+.n11 {
+  position: absolute;
+  left: 60vw;
+  top: 3vw;
+}
+
+.n1, .n3, .n5, .n7, .n9 {
+  animation: mov1 0.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes mov1 {
+  0% {width: 0vw;}
+  100% {width: 10vw;}
+}
+
+.n2, .n4, .n6, .n8, .n10, .n11 {
+  animation: mov2 0.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes mov2 {
+  0% {width: 0vw;}
+  100% {width: 5vw;}
+}
+
+.kach {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  background-color: rgb(0, 0, 0);
+  top: 55.51vw;
+  animation: color2 0.5s infinite;
+  animation-direction: alternate;
+ animation-timing-function: ease-in-out;
+}
+@keyframes color2 {
+  0% {background-color: black;}
+  100% {background-color: white;}
+}
+
+.polukrug1{
+position: absolute;
+width: 18vw;
+top: -1.5vw;
+left: 6vw;
+} 
+
+.polukrug2{
+position: absolute;
+width: 18vw;
+top: 16vw;
+left: 6vw;
+} 
+
+.polukrug3{
+position: absolute;
+width: 18vw;
+top: 34vw;
+left: 6vw;
+} 
+
+.polukrug4{
+position: absolute;
+width: 18vw;
+top: -1.5vw;
+left: 29vw;
+} 
+
+.polukrug5{
+position: absolute;
+width: 18vw;
+top: 16vw;
+left: 29vw;
+} 
+
+.polukrug6{
+position: absolute;
+width: 18vw;
+top: 34vw;
+left: 29vw;
+} 
+
+.polukrug1, .polukrug2, .polukrug3, .polukrug4, .polukrug5, .polukrug6 {
+animation: mov7 0.5s infinite;
+animation-direction: alternate;
+
+
+
+
+
+animation-timing-function: ease-in-out;
+}
+
+@keyframes mov7 {
+0% {rotate: -10deg;}
+100% {rotate: 10deg; }
+}
+
+.viezd {
+position: absolute;
+overflow: hidden;
+width: 25vw;
+height: 25vw;
+background-color: rgb(255, 255, 255);
+top: 55.51vw;
+left:50vw;
+animation: color1 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes color1 {
+0% {background-color: #0000f4;}
+100% {background-color: white;}
+}
+
+.polukrug7 {
+width: 12vw;
+rotate: 150deg;
+position: absolute;
+top: 4.5vw;
+left: 2vw;
+animation: mov10 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes mov10{
+0% {top: -50px; left: -80px;}
+100% {top: 4.5vw; left: 2vw;}
+}
+
+.polukrug8 {
+width: 12vw;
+rotate: 40deg;
+position: absolute;
+top: 17vw;
+left: -0.5vw;
+animation: mov11 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes mov11{
+0% {top: 380px; left: -130px;}
+100% {top: 17vw; left: -0.5vw;}
+}
+
+.streli1{
+width: 12vw;
+position: absolute;
+rotate: 90deg;
+top: -4vw;
+animation: mov12 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes mov12{
+0% {top: -70px; left: -200px;}
+100% {top: -4vw; left: 0vw;}
+}
+
+.streli2{
+width: 12vw;
+position: absolute;
+rotate: 180deg;
+top: 3vw;
+left: -4.5vw;
+animation: mov13 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes mov13{
+0% {top: -190px; left: -70px;}
+100% {top: 3vw; left: -4.5vw;}
+}
+
+.streli3{
+width: 12vw;
+position: absolute;
+top: 12.5vw;
+left: 16vw;
+animation: mov14 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes mov14{
+0% {top: 365px; left: 50px;}
+100% {top: 12.5vw;  left: 16vw;}
+}
+
+.streli4{
+width: 12vw;
+position: absolute;
+rotate: 200deg;
+top: 11vw;
+left: -0.5vw;
+animation: mov15 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes mov15{
+0% {top: -250px; left: 150px;}
+100% {top: 11vw; left: -0.5vw;}
+}
+
+.streli5{
+width: 12vw;
+position: absolute;
+rotate: 130deg;
+top: 1vw;
+left: 1vw;
+animation: mov16 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes mov16{
+0% {top: -160px; left: -160px;}
+100% {top: 1vw; left: 1vw;}
+}
+
+.streli6{
+width: 12vw;
+position: absolute; 
+top: 12vw;
+left: 8vw;
+animation: mov17 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes mov17 {
+0% {top: 380px; left: 380px;}
+100% {top: 12vw;  left: 8vw;}
+}
+
+.streli7{
+width: 12vw;
+position: absolute; 
+rotate: 70deg;
+top: 11vw;
+left: 10vw;
+animation: mov18 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes mov18{
+0% {top: 420px; left: 0px;}
+100% { top: 11vw; left: 10vw;}
+}
+
+.streli8{
+width: 12vw;
+position: absolute;  
+rotate: 270deg;
+top: 0.5vw;
+left: 13vw;
+animation: mov19 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes mov19{
+0% {top: -220px; left: 320px;}
+100% {top: 0.5vw; left: 13vw;}
+}
+
+.streli9{
+width: 12vw;
+position: absolute;
+rotate: 355deg;
+top: -0.5vw;
+left: 11.5vw;
+animation: mov20 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes mov20{
+0% {top: 200px; left: 400px;}
+100% {top: -0.5vw; left: 11.5vw;}
+}
+
+.naviezd {
+position: absolute;
+font-family: "Golos UI";
+/* font-size: 1.6vw; */
+color: rgb(255, 255, 255);
+top: 12vw;
+left: 8vw;
+animation: dop1 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+
+/* @keyframes dop1 {
+0% {opacity: ;}
+100% {opacity: ; }
+} */
+
+.tiski {
+position: absolute;
+overflow: hidden;
+width: 25vw;
+height: 25vw;
+background-color: rgb(255, 255, 255);
+top: 55.51vw;
+left: 75vw;
+}
+
+.tiski1 {
+position: absolute;
+width: 29.5vw;
+left: -2.8vw;
+animation: mov9 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes mov9 {
+0% {top: -15vw;}
+100% {top: -6vw;}
+}
+
+.tiski2{
+position: absolute;
+width: 29.5vw;
+left: -2.8vw;
+animation: mov8 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes mov8 {
+0% {top: 3vw;}
+100% {top: -6vw;}
+}
+
+.r100 {
+position: absolute;
+font-family: "Golos UI";
+/* font-size: 1.6vw; */
+color: rgb(0, 0, 0);
+top: 12vw;
+right: 8.5vw;
+animation: mov100 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes mov100 {
+0% {opacity: 100%;}
+100% {opacity: 0%;}
+}
+
+
+.r1{
+position: absolute;
+top: 3vw;
+left: 3vw;
+}
+
+.r2{
+position: absolute;
+top: 8vw;
+left: 22vw; 
+}
+
+.r3{
+position: absolute;
+top: 35vw;
+left: 20vw; 
+}
+
+.r4{
+position: absolute;
+top: 31vw;
+left: 37vw; 
+}
+
+.rl6{
+position: absolute;
+top: 23vw;
+left: 27vw; 
+}
+
+.t1{
+position: absolute;
+top: 15vw;
+left:8vw; 
+}
+
+.t2{
+position: absolute;
+top: 20vw;
+left: 15vw; 
+}
+
+.t3{
+position: absolute;
+top: 2vw;
+left: 40vw; 
+}
+
+.t4{
+position: absolute;
+top: 40vw;
+left: 35vw; 
+}
+
+.t5{
+position: absolute;
+top: 47vw;
+left: 18vw; 
+}
+
+.v1{
+position: absolute;
+top: 15vw;
+left: 35vw; 
+}
+
+.v2{
+position: absolute;
+top: 30vw;
+left: 4vw; 
+}
+
+.v3{
+position: absolute;
+top: 41vw;
+left: 8vw; 
+}
+
+.v4{
+position: absolute;
+top: 47vw;
+left: 38vw; 
+}
+
+.r4, .r3, .r2, .r1, .rl6, .v1, .v2, .v3, .v4, .t1, .t2, .t3, .t4, .t5 {
+animation: color3 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes color3 {
+0% {color:white;}
+100% { color: black;}
+}
+
+.inv2{
+position: absolute;
+width: 50vw;
+height: 25vw;
+top: 80.4vw;
+left: 50vw;
+animation: mov21 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes mov21 {
+  0% {width: 30vw; transform: translateX(10vw)}
+  100% {width: 50vw;}
+}
+
+.inv10 {
+  position: absolute;
+  width: 50vw;
+  height: 25vw;
+  top: 80.4vw;
+  left: 50vw;
+}
+
+
+.liniya {
+  position: absolute;
+  width: 100vw;
+  height: 8vw;
+  background-color: white;
+  top: 105.4vw;
+}
+
+.vpravo {
+  width: 100vW;
+  position: absolute;
+  top: -27vw;
+  animation: mov5 0.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes mov5 {
+  0% {left: -80vw;}
+  100% { left: -45vw}
+}
+
+.vlevo {
+  width: 100vw;
+  position: absolute;
+  top: -27vw;
+  animation: mov6 0.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  
+}
+
+@keyframes mov6 {
+  0% {left: 46vw;}
+  100% {left: 81vw;}
+}
+
+.rrr{
+  position: absolute;
+  top: 0.9vw;
+  animation: mov4 0.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+.rrrrr {
+  color: #0000f4;
+}
+
+@keyframes mov4 {
+  0% {left: 20vw;}
+  100% { left: 55vw}
+}
+
+
+ .invert2{
+  overflow: hidden;
+  position: absolute;
+  width: 385px;
+  height: 385px;
+  top: 113.4vw;
+ }
+
+ .inv3{
+  width: 25vw;
+  height: 25vw;
+  animation: mov29 0.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+ }
+
+ @keyframes mov29{
+  0% {transform: scale(30%, 30%);}
+  100% {transform: scale( 100%, 100%);}
+ }
+
+ .inv4 {
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+ }
+
+ .vrasch {
+  top: 0px;
+position: absolute;
+background-color: #0000f4;
+width: 25vw;
+height: 25vw;
+top: 113.4vw;
+left: 25vw;
+ }
+
+ .krutimsya{
+position: absolute;
+animation: move23 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+ }
+
+ @keyframes move23 {
+  0% {rotate: 0deg;}
+  100% {rotate: -180deg;}
+ }
+ 
+
+ .stars {
+  overflow: hidden;
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  top: 113.4vw;
+  left: 50vw;
+  background-color: black;
+ }
+
+ .zvezdi {
+  position: absolute;
+  animation: mov26 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+ }
+
+  @keyframes mov26{
+    0% {transform: scale(70%, 70%);}
+  100% {transform: scale(110%, 110%);}
+  }
+
+ .pumpum{
+  position: absolute;
+ width: 50vw;
+ height: 25vw;
+  background-color: white;
+  top: 138.4vw;
+  overflow: hidden;
+ }
+
+ .chern{
+  position: absolute;
+  width: 65vw;
+  top: -6.5vw;
+  left: -2vw;
+  animation: mov24 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+ }
+
+ @keyframes mov24 {
+  0% {left: 35vw;}
+  100% { left: -2vw;}
+ }
+
+ .sin{
+  position: absolute;
+  width: 50vw;
+  animation: mov25 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+ }
+
+ @keyframes mov25 {
+  0% { top: 220px; left: -300px;}
+  100% { top: 0px; left: 0px;}
+ }
+
+ .r101 {
+  position: absolute;
+  top: 0.5vw;
+  left: 1vw;
+  font-family: "Golos UI";
+  font-size: 6vw;
+  color: #0000f4;
+  animation: mov101 0.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+ }
+
+ @keyframes mov101 {
+  0% {opacity: 100%;}
+  10% {opacity: 100%;}
+  90% {opacity: 0%;}
+  100% {opacity: 0%;}
+ }
+
+ .rel5{
+  position: absolute;
+  top: 12vw;
+  left: 9vw;
+ }
+
+
+ .r6{
+  position: absolute;
+  top: 1vw;
+  left: 1vw;
+ }
+
+ .r7{
+  position: absolute;
+  top: 6vw;
+  left: 10vw;
+ }
+
+ .r8{
+  position: absolute;
+  top: 5vw;
+  left: 35vw;
+ }
+
+ .r9{
+  position: absolute;
+  top: 15vw;
+  left: 2vw;
+ }
+
+ .r10{
+  position: absolute;
+  top: 27vw;
+  left: 22vw;
+ }
+
+ .r11{
+  position: absolute;
+  top:41vw;
+  left: 3vw;
+ }
+
+ .r12{
+  position: absolute;
+  top: 45vw;
+  left: 17vw;
+ }
+
+ .t6{
+  position: absolute;
+  top: 1.5vw;
+  left: 17vw;
+ }
+
+ .t7{
+  position: absolute;
+  top: 1.5vw;
+  left: 5vw;
+ }
+
+ .t8{
+  position: absolute;
+  top: 1vw;
+  left: 20vw;
+ }
+
+ .t9{
+  position: absolute;
+  top: 21vw;
+  left: 30vw;
+ }
+
+ .t10{
+  position: absolute;
+  top: 35vw;
+  left: 20vw;
+ }
+
+ .v5{
+  position: absolute;
+  top: 22vw;
+  left: 14vw;
+ }
+
+ .v6{
+  position: absolute;
+  top: 11vw;
+  left: 34vw;
+ }
+
+ .v7{
+  position: absolute;
+  top: 31vw;
+  left: 2vw;
+ }
+
+ .v8{
+  position: absolute;
+  top: 38vw;
+  left: 34vw;
+ }
+
+ .v9{
+  position: absolute;
+  top: 45vw;
+  left: 30vw;
+ }
+
+ .rel5, .r6, .t6, .v5 {
+  animation: tsvet1 0.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+ }
+
+ @keyframes tsvet1 {
+  0% {color: white;}
+  100% {color: #000000;}
+ }
+
+ .r7, .r8, .r9, .r10, .r11, .r12, .t7, .t8, .t9, .t10, .v6, .v7, .v8, .v9 {
+  animation: tsvet2 0.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+ }
+
+ @keyframes tsvet2 {
+  0% {color: white;}
+  100% {color: #0000f4;}
+ }
+
+ .polosa {
+position: absolute;
+width: 100vw;
+top: 163.4vw;
+ }
+
+ .poloska {
+position: absolute;
+height: 10vw;
+animation: mov31 0.5s infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+ }
+
+ @keyframes mov31 {
+  0% {left: -15vw;}
+  100% {left: 0vw;}
+ }
+
+ .five {
+  position: absolute;
+  width: 100%;
+  background-color: #0000f4;
+  top: 173.4vw;
+ }
+
+ .hladniz {
+  position: absolute;
+  width: 95vw;
+  height: 45vw;
+  top: 2.5vw;
+  left: 1vw;
+  animation: final1 0.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+ }
+
+ @keyframes final1 {
+  0% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(0.8.0.8);
+  }
+ }
+
+ .fon {
+  overflow: hidden;
+  position: absolute;
+  width: 100vw;
+  height: 50vw;
+  background-color: white;
+ }
+
+ .mini1 {
+  position: absolute;
+  width: 8vw;
+  top: 15vw;
+  left: 4vw;
+ }
+
+ .mini2 {
+  position: absolute;
+  width: 8vw;
+  top: 3vw;
+  left: 33vw;
+ }
+
+ .mini3 {
+  position: absolute;
+  width: 8vw;
+  top: 40vw;
+  left: 30vw;
+ }
+
+ .mini4 {
+  position: absolute;
+  width: 8vw;
+  top: 19vw;
+  left: 55vw;
+ }
+
+ .mini5 {
+  position: absolute;
+  width: 8vw;
+  top: 30vw;
+  left: 70vw;
+ }
+
+ .mini6 {
+  position: absolute;
+  width: 8vw;
+  top: 12vw;
+  left: 87vw;
+ }
+
+ .mini1, .mini2, .mini3, .mini4, .mini5, .mini6 {
+  animation: mov40 0.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+ }
+
+ @keyframes mov40 {
+  0% {height: 0vw;}
+  100% {height: 8vw;}
+ }
+
+ .l1{
+  height: 8vw;
+  position: absolute;
+  top: 4vw;
+  left: 50px;
+ }
+
+ .l2{
+  height: 8vw;
+  position: absolute;
+  top: 39vw;
+  left: 6vw;
+ }
+
+ .l3{
+  height: 8vw;
+  position: absolute;
+  top: 2vw;
+  left: 70vw;
+ }
+
+ .l4{
+  height: 4vw;
+  position: absolute;
+  top: 40vw;
+  left: 85vw;
+ }
+
+ .l5{
+  height: 4vw;
+  position: absolute;
+  top: 22vw;
+  left: 73vw;
+ }
+
+ .l6{
+  height: 4vw;
+  position: absolute;
+  top: 27vw;
+  left: 16vw;
+ }
+
+ .l7{
+  height: 4vw;
+  position: absolute;
+  top: 19vw;
+  left: 35vw;
+ }
+
+ .l8{
+  height: 8vw;
+  position: absolute;
+  top: 38vw;
+  left: 45vw;
+ }
+
+ .l1, .l3, .l2, .l8 {
+  animation: mov32 0.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+ }
+
+ @keyframes mov32 {
+  0% {height: 0vw;}
+  100% { height: 8vw;}
+ }
+
+ .l4, .l5, .l6, .l7 {
+  animation: mov33 0.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+ }
+
+ @keyframes mov33 {
+  0% {height: 0vw;}
+  100% { height: 4vw;}
+ }
+
+ .six {
+  background-color: #0000f4;
+  width: 100%;
+  height: 8vw;
+  position: absolute;
+  overflow: hidden;
+  top: 223.4vw;
+  animation: color10 0.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+ }
+
+ @keyframes color10 {
+  0% {background-color: #0000f4;}
+  100% { background-color: black;}
+ }
+
+ .k1{
+  position: absolute;
+  top: 1vw;
+  left: 8vw;
+ }
+
+ .k2{
+  position: absolute;
+  top: 5.5vw;
+  left: 20vw;
+ }
+
+ .k3{
+  position: absolute;
+  top: 2vw;
+  left: 70vw;
+ }
+
+ .k4{
+  position: absolute;
+  top: 1vw;
+  left: 90vw;
+ }
+
+ .p1{
+  position: absolute;
+  top: 1.5vw;
+  left: 30vw;
+ }
+
+ .p2{
+  position: absolute;
+  top: 1.5vw;
+  left: 50vw;
+ }
+
+ .p3{
+  position: absolute;
+  top: 5vw;
+  left: 80vw;
+ }
+
+ .b1{
+  position: absolute;
+  top: 5vw;
+  left: 3vw;
+ }
+
+ .b2{
+  position: absolute;
+  top: 5.5vw;
+  left: 60vw;
+ }
+
+ .b3{
+  position: absolute;
+  top: 4vw;
+  left: 40vw;
+ }
+
+ .k1, .k4, .p1, .p2, .b3 {
+  animation: mov35 0.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+ }
+
+ @keyframes mov35 {
+  0% {rotate: -10deg;}
+  100% { rotate: 10deg;}
+ }
+
+ .k2, .k3, .p3, .b1, .b2 {
+  animation: mov36 0.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+ }
+
+ @keyframes mov36 {
+  0% {rotate: 10deg;}
+  100% { rotate: -10deg;}
+ }
+
+
+
+
+ /* МАГАЗИН */
+
+ .back {
+  position: absolute;
+  width: 100vw;
+  margin-top: 4vw;
+ }
+
+ .shop1 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 10vw;
+  margin-left: 40vw;
+ }
+
+ .shop2 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 35vw;
+  margin-left: 50vw;
+ }
+
+ .shop3 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 25vw;
+  margin-left: 25vw;
+ }
+
+ .shop4 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 15vw;
+  margin-left: 70vw;
+ }
+
+ .shop5 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 10vw;
+  margin-left: 7vw;
+ }
+
+ .shop6 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 34vw;
+  margin-left: 5vw;
+ }
+
+ .shop7 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 5vw;
+  margin-left: 55vw;
+ }
+
+ .shop8 {
+  position: absolute;
+  width: 20vw;
+  margin-top: 37vw;
+  margin-left: 75vw;
+ }
+
+ /* .shop1, .shop2, .shop3, .shop4, .shop5, .shop6, .shop7, .shop8:hover {
+  width: ;
+ } */
+
+ .container3{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 825vw;
+ }
+
+ .kniga1, .kniga2, .kniga3, .kniga4, .kniga5, .kniga6, .kniga7, .kniga8, .kniga9, .kniga10, .kniga11 {
+  position: relative;
+  width: 100%;
+ }
+ .kniga1{
+  margin-top: 60vw;
+ }
+
+ /* КОНТАКТЫ */
+
+ .back2 {
+  position: absolute;
+  width: 100vw;
+  margin-top: 5vw;
+ }
+
+ .pocht{
+  font-family: "Golos UI Regular";
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
+    position: absolute;
+    margin-top: 4.5vw;
+    margin-left: 1vw;
+ }
+
+ .tg{
+  font-family: "Golos UI Regular";
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
+    position: absolute;
+    margin-top: 9vw;
+    margin-left: 1vw;
+ }
+
+ .inst{
+  font-family: "Golos UI Regular";
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
+    position: absolute;
+    margin-top: 13.5vw;
+    margin-left: 1vw;
+ }
+
+
+ /* ФОРМА */
+
+ form > input:nth-last-of-type(3) {
+  margin-right: 5%;
+}
+
+#openModalBtn{  
+position: absolute;
+background: #000000;
+color: white;
+font-size: 3vw;
+margin-top: 18vw;
+margin-left: 1vw;
+border: none;
+/* margin-top: -10vw; */
+  /* font-size: 1vw; */
+  /* 1 верх них, 3 право лево  */
+  /* margin: 1% 3%;
+  padding:  1% 3%;
+  border-radius: 5px;
+  border: none; */
+}
+
+#openModalBtn:hover{
+  background: #0000f4;
+  color: rgb(255, 255, 255);
+}
+
+.modal{
+  /* display: none; */
+  position: fixed;
+  z-index: 20;
+  left: 0;
+  top: 0;
+  width: 47vw;
+  height: 100%;
+  overflow: auto;
+  /* background-color: hwb(0 0% 0 / 0.0); */
+  margin-left: -2.3vw;
+  margin-top: 10.5vw;
+}
+
+.modal-content{
+  font-family: Golos UI Regular;
+  background: #0000f4;
+  /* auto значит что текст должен автоматически вставать посередине */
+  margin: 15% auto;
+  padding: 1.5vw;
+  /* border: 1px solid #999; */
+  width: 80%;
+  /* border-radius: 5px; */
+}
+
+  .close{
+    color: #ffffff;
+    /* float отвечает за расположение элемента в коробке */
+    float: right;
+    /* focus когда элемент выделен, float когда на него навели */
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.close:hover, 
+.close:focus{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+  /* color: #ffffff; */
+  /* float отвечает за расположение элемента в коробке */
+  /* margin-top: ;
+  margin-left: 36vw;
+  float: right;
+  font-size: 1.5vw;
+  z-index: 1; */
+  /* focus когда элемент выделен, float когда на него навели */
+  /* font-size: 1.5vw;
+  font-weight: bold; */
+
+
+
+/* .close:hover, 
+.close:focus{
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 2vw;
+} */
+
+/* .submit {
+  background-color: #ffffff;
+  border: none;
+  margin-top: 2vw;
+} */
+
+.str404 {
+  position: absolute;
+  width: 100%;
+}
+
+

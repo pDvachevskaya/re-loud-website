@@ -1,0 +1,446 @@
+@media only screen and (min-width: 1440px) {
+    /* Desktop */
+    .mainq1, .mainq2, .mainq3, .mainq4, .mainq5, .mainq6 {
+        width: 100%;
+        height: 62vw;
+        background-color: black;
+    }
+
+    .container {
+        position: relative;
+        overflow: hidden;
+        background: rgb(255, 255, 255);
+        overflow: hidden;
+        width: 100%;
+        height: 62vw;
+      }
+
+    
+h2{
+    font-family: "Golos UI Regular";
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;}
+
+    .razdeli1 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 67vw ;
+      }
+    
+      .razdeli2 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left:  72vw;
+      }
+    
+      .razdeli3 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 78vw ;
+      }
+    
+      .razdeli4 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 85vw ;
+      }
+    
+      .razdeli5 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 92vw ;
+      }
+    
+
+
+}
+  
+  
+  
+  @media only screen and (min-width: 1366px) and (max-width: 1440px) {
+    /* iPad */
+    .mainq1, .mainq2, .mainq3, .mainq4, .mainq5, .mainq6 {
+        width: 100%;
+        height: 62vw;
+        background-color: black;
+    }
+
+    .container {
+        position: relative;
+        overflow: hidden;
+        background: rgb(255, 255, 255);
+        overflow: hidden;
+        width: 100%;
+        height: 62vw;
+      }
+
+    
+h2{
+    font-family: "Golos UI Regular";
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;}
+
+    .razdeli1 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 67vw ;
+      }
+    
+      .razdeli2 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left:  72vw;
+      }
+    
+      .razdeli3 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 78vw ;
+      }
+    
+      .razdeli4 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 85vw ;
+      }
+    
+      .razdeli5 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 92vw ;
+      }
+    
+
+
+}
+  
+  
+  
+  @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    /* iPad */
+    .mainq1, .mainq2, .mainq3, .mainq4, .mainq5, .mainq6 {
+        width: 100%;
+        height: 768px;
+        background-color: black;
+    }
+
+    .container {
+        position: relative;
+        overflow: hidden;
+        background: rgb(255, 255, 255);
+        overflow: hidden;
+        width: 100%;
+        height: 62vw;
+      }
+
+    
+h2{
+    font-family: "Golos UI Regular";
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;}
+
+    .razdeli1 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 67vw ;
+      }
+    
+      .razdeli2 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left:  72vw;
+      }
+    
+      .razdeli3 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 78vw ;
+      }
+    
+      .razdeli4 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 85vw ;
+      }
+    
+      .razdeli5 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 92vw ;
+      }
+    }
+  
+  
+  
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    /* iPad Portrait */
+  /* .mainscreen {
+    rotate: 90deg;
+  } */
+
+/* .change1 {
+rotate: 90deg;
+}
+
+.mainq1 {
+    height: 100vh;
+} */
+
+h2{
+    font-family: "Golos UI Regular";
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.razdeli1 {
+    position: absolute;
+    margin-top: 2vw;
+    margin-left: 67vw ;
+  }
+
+  .razdeli2 {
+    position: absolute;
+    margin-top: 2vw;
+    margin-left:  72vw;
+  }
+
+  .razdeli3 {
+    position: absolute;
+    margin-top: 2vw;
+    margin-left: 78vw ;
+  }
+
+  .razdeli4 {
+    position: absolute;
+    margin-top: 2vw;
+    margin-left: 85vw ;
+  }
+
+  .razdeli5 {
+    position: absolute;
+    margin-top: 2vw;
+    margin-left: 92vw ;
+  }
+
+  .container {
+    position: relative;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 100%;
+    height: 62vw;
+  }
+
+
+.mainq1, .mainq2, .mainq3, .mainq4, .mainq5, .mainq6 {
+    width: 100%;
+    height: 768p;
+    background-color: black;
+}
+/* .mainscreen{ rotate: 90deg;
+margin-top: 100vw;
+margin-left: 100vw;
+} */
+  }
+  
+  
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* iPad Landscape */
+  
+    .mainq1, .mainq2, .mainq3, .mainq4, .mainq5, .mainq6 {
+        width: 100%;
+        height: 1024px;
+        background-color: black;
+    }
+
+    .container {
+        position: relative;
+        overflow: hidden;
+        background: rgb(255, 255, 255);
+        overflow: hidden;
+        width: 100%;
+        height: 62vw;
+      }
+
+    
+h2{
+    font-family: "Golos UI Regular";
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;} 
+
+    .razdeli1 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 45vw ;
+      }
+    
+      .razdeli2 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left:  55vw;
+      }
+    
+      .razdeli3 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 65vw ;
+      }
+    
+      .razdeli4 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 75vw ;
+      }
+    
+      .razdeli5 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 85vw ;
+      }
+
+
+}
+  
+  @media only screen and (min-width: 414px) and (max-width: 768px) {
+    /* iPhone */
+    .mainq1, .mainq2, .mainq3, .mainq4, .mainq5, .mainq6 {
+        width: 100%;
+        height: 896px;
+        background-color: black;
+    }
+
+    .container {
+        position: relative;
+        overflow: hidden;
+        background: rgb(255, 255, 255);
+        overflow: hidden;
+        width: 100%;
+        height: 62vw;
+      }
+
+    
+h2{
+    font-family: "Golos UI Regular";
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;}
+
+    .razdeli1 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 45vw ;
+      }
+    
+      .razdeli2 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left:  55vw;
+      }
+    
+      .razdeli3 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 65vw ;
+      }
+    
+      .razdeli4 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 75vw ;
+      }
+    
+      .razdeli5 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 85vw ;
+      }
+
+      .back2 {
+        position: absolute;
+        width: 100vh;
+        margin-top: 5vw;
+        /* rotate: 90deg; */
+       }
+
+}
+  
+  @media only screen and (max-width: 414px) and (orientation: portrait) {
+    /* iPhone Portrait */
+    .mainq1, .mainq2, .mainq3, .mainq4, .mainq5, .mainq6 {
+        width: 100%;
+        height: 640px;
+        background-color: black;
+    }
+
+    
+h2{
+    font-family: "Golos UI Regular";
+    color: white;
+    font-size: 2vw;
+        font-weight: bold;}
+
+    .razdeli1 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 45vw ;
+      }
+    
+      .razdeli2 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left:  55vw;
+      }
+    
+      .razdeli3 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 65vw ;
+      }
+    
+      .razdeli4 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 75vw ;
+      }
+    
+      .razdeli5 {
+        position: absolute;
+        margin-top: 2vw;
+        margin-left: 85vw ;
+      }
+
+      .back2 {
+        position: absolute;
+        width: 360px;
+        margin-top: 5vw;
+        margin-left: -40vw;
+        /* rotate: 90deg; */
+       }
+
+       .container {
+        position: relative;
+        overflow: hidden;
+        background: rgb(255, 255, 255);
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+      }
+
+      .aff2 {
+        position: relative;
+        margin-top: 50vw;
+      }
+
+      
+
+/* .mainscreen{ rotate: 90deg;
+    margin-top: 50vw;
+    margin-left: 50vw;
+  
+    }  */
+    }

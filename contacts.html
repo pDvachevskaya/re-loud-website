@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reloud website</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+<body>
+
+    <section class="container" id="container">
+        <div class="header">
+            
+            <a href="index.html"><h1 class="razdeli0" id="imya">RE//LOUD</h1></a>
+            <a href="us.html"><h2 class="razdeli1" id="razd1">О НАС</h2></a>
+            <a href="poster.html"><h2 class="razdeli2" id="razd2">ПЛАКАТ</h2></a>
+            <a href="billboard.html"><h2 class="razdeli3" id="razd3">АФИША</h2></a>
+            <a href="shop.html"><h2 class="razdeli4" id="razd4">МАГАЗИН</h2></a>
+            <a href="contacts.html"><h2 class="razdeli5" id="razd5">КОНТАКТЫ</h2></a>
+            
+        </div>
+
+        <img class="back2" src="wbl1.png" alt="">
+        <h1 class="pocht">ПОЧТА:
+            ReLoudDisco@gmail.com</h1>
+        <h1 class="tg">ТЕЛЕГРАМ:
+            @relouddisco</h1>
+        <h1 class="inst">ИНСТАГРАМ:
+            @re.loud.disco</h1>
+
+            <button id="openModalBtn">СТАТЬ ЧАСТЬЮ КОМАНДЫ</button>
+
+
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">Х</span>
+                    <!-- <h1 class="frmname">Form name</h1> -->
+                    <form id="myForm" action="">
+                        <label for="name">ФИО</label>
+                        <input type="text" id="name" name="name" required> <br>
+                        <label for="email">Email</label>
+                        <!-- required означает что элемент в форме надо обязательно заполнить -->
+                        <input type="email" id="email" name="email" required> <br>
+                        <label for="rasskaz">Небольшой рассказ о себе</label>
+                        <input type="text" id="rasskaz" name="rasskaz" required> <br>
+                        <label for="silka">Ссылка на портфолио</label>
+                        <input type="text" id="silka" name="silka" required><br>
+                        <input type="submit" value="ОТПРАВИТЬ">
+                    </form>
+                </div>
+            </div>
+
+    </section>
+    
+</body>
+</html>
